@@ -16,7 +16,8 @@ public class GenerarClave {
         for (int i = 0; i < 8; i++) {
         claveGenerada+=(cadena.charAt((int)(Math.random() * cadena.length())));
 	}
-        return DigestUtils.md2Hex(claveGenerada);
+
+        return claveGenerada;
    } 
     
 }

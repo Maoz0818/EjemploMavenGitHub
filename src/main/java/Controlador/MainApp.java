@@ -21,9 +21,6 @@ public class MainApp extends Application {
     }
 
     public static void main(String[] args) {
-        GenerarClave g = new GenerarClave();
-        String dato = g.GenerarClave();
-        System.out.println(dato);
         launch(args);
     }
 
